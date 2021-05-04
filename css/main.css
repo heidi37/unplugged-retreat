@@ -89,6 +89,13 @@ textarea {
 
 /* * * * * BASE STYLES * * * * */
 
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 /* ---- Header Styles ---- */
 
 header {
@@ -96,7 +103,10 @@ header {
 }
 
 header .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -104,14 +114,20 @@ header .content-wrapper {
 }
 
 header nav {
-  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row nowrap;
 }
 
 
 /* ---- Footer Styles ---- */
 
 .footer .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .footer-content {
@@ -127,7 +143,10 @@ header nav {
 }
 
 .social-icons {
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row nowrap;
 }
 
 .copyright {
@@ -144,11 +163,17 @@ header nav {
 }
 
 .hero-area .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 aside .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .form-description {
@@ -164,7 +189,10 @@ aside .content-wrapper {
 }
 
 .features .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .feature-items {
@@ -184,7 +212,10 @@ aside .content-wrapper {
 }
 
 .reviews .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 
@@ -195,7 +226,10 @@ aside .content-wrapper {
 }
 
 .mission .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .mission-content {
@@ -207,7 +241,10 @@ aside .content-wrapper {
 }
 
 .contact .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .contact-section {
@@ -221,7 +258,10 @@ aside .content-wrapper {
 }
 
 .faq .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .faq-section {
