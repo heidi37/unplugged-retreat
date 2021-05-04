@@ -87,6 +87,154 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* * * * * BASE STYLES * * * * */
+
+/* ---- Header Styles ---- */
+
+header {
+
+}
+
+header .content-wrapper {
+
+}
+
+.header-divider {
+
+}
+
+header nav {
+  
+}
+
+
+/* ---- Footer Styles ---- */
+
+.footer .content-wrapper {
+
+}
+
+.footer-content {
+
+}
+
+.contact {
+
+}
+
+.social {
+
+}
+
+.social-icons {
+
+}
+
+.copyright {
+
+}
+
+
+/* * * * * PAGE STYLES * * * * */
+
+/* ---- Home Page Styles ---- */
+
+.hero-area {
+
+}
+
+.hero-area .content-wrapper {
+
+}
+
+aside .content-wrapper {
+
+}
+
+.form-description {
+
+}
+
+.form {
+
+}
+
+.features {
+
+}
+
+.features .content-wrapper {
+
+}
+
+.feature-items {
+
+}
+
+.fontawesome-icons {
+
+}
+
+.features-item-descriptions {
+
+}
+
+.reviews {
+
+}
+
+.reviews .content-wrapper {
+
+}
+
+
+/* ---- About Page Styles ---- */
+
+.mission {
+
+}
+
+.mission .content-wrapper {
+
+}
+
+.mission-content {
+
+}
+
+.contact {
+
+}
+
+.contact .content-wrapper {
+
+}
+
+.contact-section {
+
+}
+
+/* ---- FAQ Page Styles ---- */
+
+.faq {
+
+}
+
+.faq .content-wrapper {
+
+}
+
+.faq-section {
+
+}
+
+/* * * * * MEDIA QUERIES * * * * */
+
+/* ---- Tablet Media Queries ---- */
+
+/* ---- Desktop Media Queries ---- */
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
