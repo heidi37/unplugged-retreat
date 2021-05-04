@@ -134,7 +134,7 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
-  width: 44%; /*Skillcrush says 100% */
+  width: 100%;
 }
 
 
@@ -148,7 +148,7 @@ footer p {
   margin: 0;
 }
 
-.footer .content-wrapper {
+footer .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -258,7 +258,7 @@ aside .content-wrapper {
 
 }
 
-.features-item-descriptions {
+.features-item-description {
 
 }
 
@@ -345,13 +345,6 @@ aside .content-wrapper {
 .faq-content {
   margin-bottom: 50px;
 }
-
-/* * * * * MEDIA QUERIES * * * * */
-
-/* ---- Tablet Media Queries ---- */
-
-/* ---- Desktop Media Queries ---- */
-
 
 /* ==========================================================================
    Helper classes
@@ -441,15 +434,230 @@ aside .content-wrapper {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+/* * * * * MEDIA QUERIES * * * * */
+
+/* ---- Tablet Media Queries 768 ---- */
+
+@media only screen and (min-width: 768px){
+
+  header {
+    justify-content: space-evenly;
+  }
+  
+  .header-divider{
+    display: none;
+  }
+
+  header .content-wrapper {
+    justify-content: space-around;
+    flex-flow: row nowrap;
+  }
+
+  header nav {
+    /* justify-content: flex-end; */
+  }
+
+  header nav ul {
+    justify-content: flex-end;
+  }
+
+  header nav ul li {
+    padding-left: 40px;
+  }
+
+  aside {
+    background: pink;
+  }
+
+  aside .content-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background: gray;
+    width: 95%;
+  }
+  
+  .form-description {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+  }
+  
+  .form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    margin-left: 100px;
+  }
+
+  .features {
+    background: yellow;
+    width: 100%;
+  }
+  
+  .features .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 95%;
+    background: gray;
+  }
+  
+  .features article {
+    flex-basis: 300px;
+    text-align: center;
+  }
+  
+  .reviews article { 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+
+  .reviews .article-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+  }
+  
+  .reviews h3, p {
+    display: flex;
+  }
+
+  footer .content-wrapper {
+    /* flex */
+    background: yellow;
+    width: 100%;
+  }
+  
+  footer .footer-content {
+   background: gray;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-evenly;
+   align-items: flex-start;
+   width: 95%;
+  }
+  
+  footer .contact, footer .social {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 35%;
+    text-align: center;
+  }
+
+  footer address {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  /**** FAQ PAGE ****/
+
+  .faq {
+    /* FLEX */
+    background: yellow;
+  }
+  
+  .faq .content-wrapper {
+    background: gray;
+    width: 95%;
+  }
+
+  .faq-content {
+    background: lightblue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+  }
+
+  .faq-content h2 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    width: 100%;
+  }
+
+  .faq-content article {
+    background: pink;
+    display: flex;
+    border: 1px solid black;
+    flex-flow: row wrap;
+    justify-content: space;
+    align-items: center;
+    flex-basis: 325px;
+  }
+
+/**** ABOUT PAGE ****/
+
+.mission {
+  background: yellow;
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: gray;
+}
+
+  .mission-content p {
+    width: 45%;
+  }
+
+  .contact-about {
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .contact-about .content-wrapper {
+    background: orange;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  .contact-about .content-wrapper h2 {
+    width: 100%;
+  }
+
+  .contact-section {
+    background: gray;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    }
+
+  .contact-content {
+    width: 45%;
+  }
+
+}
+
+/* ---- Desktop Media Queries 1200 ---- */
+
+@media only screen and (min-width: 1200px){
+
 }
 
 /* ==========================================================================
