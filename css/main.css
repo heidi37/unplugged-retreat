@@ -277,7 +277,7 @@ footer .social-icons p {
 }
 
 footer .copyright {
-  margin: 20px 0;
+  margin: 20px 0 10px;
 }
 
 
@@ -684,6 +684,14 @@ h2 {
     width: 45%;
   }
 
+  .mission h2, .mission p, .contact-section h2 {
+    margin: 0;
+  }
+
+  .contact-content h4 {
+    margin-bottom: 10px;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -694,18 +702,30 @@ h2 {
     align-items: flex-start;
     }
 
+  .contact-content address {
+    font-size: .875em;
+  }
+
   /**** FAQ PAGE ****/
 
   .faq .content-wrapper {
     justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 65px;
   }
 
   .faq-content {
     flex-basis: 45%;
+    margin-bottom: 0;
   }
 
   .faq h2 {
     width: 100%;
+    margin: 30px 0 10px;
+  }
+
+  .faq h4 {
+    font-size: .875em;
   }
 
 }
