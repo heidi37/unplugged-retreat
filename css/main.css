@@ -142,7 +142,7 @@ img {
 }
  
 figure {
- 
+ margin: 0;
 }
  
 address {
@@ -217,6 +217,10 @@ header .content-wrapper {
   margin: 10px 0 20px 0;
 }
 
+header figure img {
+  width: 220px;
+}
+
 header nav {
   display: flex;
   justify-content: space-around;
@@ -287,6 +291,12 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/jake-melara-30679-unsplash.jpg') no-repeat center center;
+  height: 500px;
+}
+
+.hero-area .content-wrapper {
+  margin: 0;
 }
 
 /* Aside */
@@ -304,6 +314,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/rawpixel-800820-unsplash1.jpg') no-repeat center top;
 }
 
 .features h2 {
@@ -320,7 +331,7 @@ aside {
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -498,11 +509,25 @@ aside {
     margin: 100px 0;
   }
 
+  h1 {
+    font-size: 3em;;
+  }
+
+  h3, 
+  h4 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
   /* Header */
 
   header {
     justify-content: space-around;
-    padding: 33px 0;
+    padding: 0;
+    height: 100px;
   }
 
   header .content-wrapper {
@@ -524,23 +549,48 @@ aside {
 
   /* Hero Area */
 
+  .hero-area {
+    height: 600px;
+  }
+
   /* Aside */
  
   aside .content-wrapper {
-    margin: 50px 0;
+    margin: 10px 0 45px 0;
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
     
   }
   
-  aside .content-wrapper .form-description,
-  aside .content-wrapper .form {
+  aside .content-wrapper .form-description {
     width: 40%;
     margin: 0;
   }
-  
 
+  aside .content-wrapper .form {
+    width: 45%;
+    margin: 0;
+  }
+
+  aside .content-wrapper .form-description p, {
+    margin: 0;
+  }
+
+  aside .content-wrapper .form-description h3 {
+    margin-bottom: 0;
+  }
+
+  input[type=text] {
+    color: #9d9ea4;
+    padding: .7em;
+  }
+   
+  input[type=button] {
+    padding: 10px 0;
+  }
+ 
+  
   /* Features */
 
   .features article {
@@ -552,25 +602,50 @@ aside {
   }
   
   .features .features-item-description {
-    width: 60%;
-  }  
+    width: 200px;
+  }
   
   /* Reviews */
 
-  .reviews article { 
-    display: flex;
-    justify-content: space-between;
+  .reviews .content-wrapper {
+    margin: 70px 0;
   }
 
-  .reviews .article-text {
-    width: 49%;
+  .reviews .content-wrapper article { 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
   }
+
+  .reviews .content-wrapper article div { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+  }
+
+  .reviews h3 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .reviews h2 {
+    margin: 0 0 15px 0;
+  }
+
+  .reviews .content-wrapper figure {
+    margin-top: 7px;
+    margin-right: 15px;
+  }
+
+
 
   /* Footer */
 
   footer .content-wrapper {
     width: 65%;
-    margin: 100px 0;
+    margin: 50px 0;
   }
   
   .footer-content { 
