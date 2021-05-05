@@ -357,7 +357,7 @@ aside {
 }
 
 .reviews h3 {
-  width 55%;
+  width: 55%;
   margin: 20px 0;
 }
 
@@ -515,12 +515,12 @@ aside {
 
   h3, 
   h4 {
-  font-size: 1.5em;
-}
+    font-size: 1.5em;
+  }
 
-h2 {
-  font-size: 2.25em;
-}
+  h2 {
+    font-size: 2.25em;
+  }
 
   /* Header */
 
@@ -532,7 +532,7 @@ h2 {
 
   header .content-wrapper {
     justify-content: space-between;
-    width: 100%:
+    width: 100%;
   }
 
   header nav {
@@ -573,7 +573,7 @@ h2 {
     margin: 0;
   }
 
-  aside .content-wrapper .form-description p, {
+  aside .content-wrapper .form-description p {
     margin: 0;
   }
 
@@ -735,47 +735,97 @@ h2 {
 @media only screen and (min-width: 1200px){
 
   .content-wrapper {
-  max-width: 960px;
-}
+    max-width: 960px;
+  }
+
+  header figure img {
+    width: 280px;
+  }
+
+  nav {
+    font-size: 1.125em;
+  }
+
+  header nav ul {
+      justify-content: flex-end;
+  }
+
+  header nav ul li {
+    padding-left: 40px;
+  }
+
+  h1 {
+    font-size: 3.75em;
+  }
+   
+  h2 {
+    font-size: 2.25em;
+  }
+   
+  h3, 
+  h4 {
+    font-size: 1.875em;
+  }
+   
+  p {
+    font-size: 1.125em;
+    line-height: 1.4;
+  }
+
 
 /* Hero */
-.hero-area h1 {
-  width: 655px;
-}
+  .hero-area h1 {
+    width: 660px;
+  }
 
 /* Aside */
-aside .content-wrapper {
-  justify-content: space-around;
-}
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
 
-aside .content-wrapper .form-description,
-    aside .content-wrapper .form {
-        width: 30%;
-    }
+  aside .content-wrapper .form-description, aside .content-wrapper .form {
+    width: 30%;
+  }
 
 /* Features */
-.features h2 {
-  width: 875px;
-}
+  .features h2 {
+    width: 875px;
+  }
 
-.features article {
-  flex-basis: 33%;
-}
+  .features article {
+    flex-basis: 33%;
+  }
 
-.reviews article div {
-  width: 415px; 
-}
+  .reviews h2 {
+    margin: 70px 0;
+  }
+
+  .reviews h3 {
+    width: 300px;
+  }
+
+  .reviews .content-wrapper figure {
+    margin-right: 40px;
+  }
+
+  .reviews .content-wrapper {
+    margin: 0 0 90px 0;
+  }
+
+  .reviews article div {
+    width: 415px; 
+  }
 
 /* ABOUT PAGE */
-.mission h2,
-   .contact-section .content-wrapper h2 {
-       width: 860px;
-   }
+  .mission h2, .contact-section .content-wrapper h2 {
+    width: 925px;
+    font-size: 3em;
+  }
 
 /* FAQ PAGE */
-.faq h2 {
-       width: 100%;
-   }
+  .faq h2 {
+    width: 100%;
+  }
 
 }
 
