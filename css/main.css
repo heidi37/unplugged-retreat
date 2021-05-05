@@ -704,6 +704,10 @@ aside {
     margin: 0;
   }
 
+  .map figure {
+    padding-bottom: 46%; 
+  }
+
   .contact-content h4 {
     margin-bottom: 10px;
   }
@@ -836,6 +840,10 @@ aside {
   .mission h2, .contact-section .content-wrapper h2 {
     width: 925px;
     font-size: 3em;
+  }
+
+  .map figure {
+    padding-bottom: 30%; 
   }
 
 /* FAQ PAGE */
