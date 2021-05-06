@@ -127,12 +127,14 @@ h1 {
  
 h2 {
   font-size: 1.875em;
+  line-height: 1.2;
 }
  
 h3, 
 h4 {
   font-size: 1.125em;
   margin: 0;
+  line-height: 1.2;
 }
  
 p {
@@ -343,6 +345,8 @@ aside .form {
 
 .features h2 {
   margin-bottom: 30px;
+  width: 305px;
+
 }
 
 .features article {
@@ -368,14 +372,6 @@ aside .form {
   margin-bottom: 40px;
 }
 
-.features h2 {
-  width: 305px;
-}
-
-.fontawesome-icons {
-
-}
-
 
 /* Reviews */
 
@@ -391,7 +387,6 @@ aside .form {
 
 .reviews h2 {
   margin: 0 0 20px;
-  line-height: 1.2;
 }
 
 .reviews h3 {
@@ -415,7 +410,6 @@ aside .form {
 
 .mission h2 {
   margin: 40px 0 5px 0;
-  line-height: 1.2;
 }
 
 .mission-content {
@@ -448,12 +442,10 @@ aside .form {
 
 .contact-section h2 {
   margin: 0;
-  line-height: 1.2;
 }
 
 .contact-section h4 {
   margin: 10px 0;
-  line-height: 1.2;
 }
 
 .contact-section p {
@@ -481,7 +473,6 @@ aside .form {
 .faq h2 {
   margin-bottom: 40px;
   margin-top: 0;
-  line-height: 1.2;
 }
 
 .faq-content {
@@ -590,7 +581,7 @@ aside .form {
 
   .content-wrapper {
     max-width: 640px;
-    margin: 100px 0;
+    margin: 90px 0;
   }
 
   h1 {
@@ -662,7 +653,7 @@ aside .form {
   }
 
   aside .content-wrapper .form-description h3 {
-    margin-bottom: 0;
+    margin: 10px 0;
   }
 
   input[type=text] {
@@ -688,11 +679,21 @@ aside .form {
   .features .features-item-description {
     width: 200px;
   }
+
+  .features h2 {
+    width: 635px;
+    margin: 0;
+  }
+
+  .features i {
+    margin-bottom: 25px;
+    font-size: 5em;
+  }
   
   /* Reviews */
 
   .reviews .content-wrapper {
-    margin: 70px 0;
+    margin: 90px 0;
   }
 
   .reviews .content-wrapper article { 
@@ -710,8 +711,9 @@ aside .form {
   }
 
   .reviews h3 {
-    margin: 0;
+    margin: 0 0 10px 0;
     padding: 0;
+    width: 230px;
   }
 
   .reviews h2 {
@@ -729,7 +731,7 @@ aside .form {
 
   footer .content-wrapper {
     width: 65%;
-    margin: 50px 0;
+    margin: 90px 0 30px 0;
   }
   
   .footer-content { 
@@ -737,15 +739,18 @@ aside .form {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: flex-start;
-    width: 100%;
+    width: 495px;
     }
   
   footer .contact, footer .social {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    width: 35%;
     text-align: center;
+  }
+
+  footer .social-icons p {
+    margin: 20px 15px;
   }
 
   footer address {
@@ -753,6 +758,10 @@ aside .form {
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
+  }
+
+  .footer-content h4 {
+    margin-bottom: 20px;
   }
 
 
