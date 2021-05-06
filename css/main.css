@@ -136,6 +136,11 @@ p {
 	font-size: .875em;
   line-height: 1.4;
 }
+
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+}
  
 img {
  width: 100%;
